@@ -23,12 +23,7 @@ h1,
     margin: auto;
 }
 
-.logo{
-	width: 100px;
-	display: block;
-	margin: auto;
-	float: left;
-}
+
 
 header{
     background-color: #FFF;
@@ -70,105 +65,66 @@ img {
 }
 
 /*NAVIGATION*/
-.nav-btn,
-.nav-btn:link,
-.nav-btn:visited{
-	display: block;
-	height: 40px;
-	width: 40px;
-	position: absolute;
-	top: 10px;
-	right: 5%;
-	background: #fff url('../images/nav-icon.svg') no-repeat center center;
-	/* background-color || background-image || background-repeat || background-position*/
+
+.logo {
+	width: 50px;
+	height: 50px;
+	float: left;
+	display: inline-block;
+	margin-top: 1rem;
+	margin-left: 1rem;
+	position: fixed;
 }
 
-.nav-btn:hover,
-.nav-btn:focus,
-.nav-btn:active{
-	background-color: rgba(0,0,0,0.1);
+.nav {
+	text-align:right;
+	position: fixed;
+	height: 50px;
+	font-size: 18px;
 }
 
-.nav-btn[data-state="active"] {
-	background: rgba(0,0,0,0.1) url('../images/nav-close.svg') no-repeat center center;
+.nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 .nav a,
 .nav a:link,
-.nav a:visited{
-	display: block;
-	padding: .5rem;
-	text-align:center;
+.nav a:visited {
+	text-align:right;
+	font-family: sans-serif;
+	letter-spacing: 1.5px;
 	color: #000;
 	text-decoration: none;
-	text-transform: uppercase;
-	/* border-width || border-style || border-color */
+	font-weight: 300;
+	line-height: 2rem;
+}
+
+.nav li {
+	text-align:center;
+	display: inline-block;
+	padding: 0.5em;
+}
+
+.nav ul {
+	padding: 0;
+	margin: 0 auto;
+	display: inline-block;
+	/*width: 17em;*/
 }
 
 .nav a:hover,
 .nav a:focus,
 .nav a:active{
 	color: #000;
+	background-color: rgba(0,0,0,0.1);
 }
 
-	/* Toggle Nav*/
-	.nav-top{
-		max-height: 0;
-		-moz-transition: all 250ms linear;
-		-o-transition: all 250ms linear;
-		-webkit-transition: all 250ms linear;
-		transition: all 250ms linear;
-		overflow:hidden;
-	}
 
-	.nav-top[data-state="expanded"]{
-		max-height: 20rem;
-	}
 
-@media only screen and (min-width: 30em){
-	.nav-btn,
-	.nav-btn:link,
-	.nav-btn:visited{
-		display: none;
-	}
 
-	.nav-top{
-		max-height: 5rem;
-	}
 
-	.nav li{
-		display: inline-block;
-	}
-
-	.nav-top{
-		float: right;
-		margin-right: 5%;
-	}
-}
-
-@media only screen and (min-width: 30em){
-	.nav{
-		text-align: center;
-	}
-
-	.nav li{
-		display: inline-block;
-		float: none;
-		margin: 0;
-		width:auto;
-	}
-
-	.nav a,
-	.nav a:link,
-	.nav a:visited{
-		border-top: 0;
-	}
-
-	.nav-top{
-		float: right;
-		margin-right: 5%;
-	}
-}
 
 
 
