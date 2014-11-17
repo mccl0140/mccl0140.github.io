@@ -21,7 +21,7 @@ html, body{
 	padding: 5rem;
 }
 
-h1, 
+h1,
 .main{
     width: 100%;
     margin: auto;
@@ -35,12 +35,12 @@ h1,
 }
 
 .logo:hover{
-    -webkit-transform:scale(1.1); 
-    -moz-transform:scale(1.1); 
-    -o-transform:scale(1.1); 
-    -webkit-transition-duration:0.3s; 
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    -webkit-transition-duration:0.3s;
     -moz-transition-duration:0.3s;
-    -o-transition-duration:0.3s; 
+    -o-transition-duration:0.3s;
 }
 
 @media only screen and (min-width: 30em){
@@ -59,7 +59,7 @@ header{
 }
 
 h2{
-	color: #FA0D38;
+	color: #000;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 60px;
 	text-align: center;
@@ -101,7 +101,7 @@ img {
 	height: 40px;
 	width: 40px;
 	position: absolute;
-	top: 10px;	
+	top: 10px;
 	right: 5%;
 	background: #fff url('../images/nav-icon.svg') no-repeat center center;
 	/* background-color || background-image || background-repeat || background-position*/
@@ -117,7 +117,7 @@ img {
 	background: #BFF000 url('../images/nav-close.svg') no-repeat center center;
 }
 
-.nav a, 
+.nav a,
 .nav a:link,
 .nav a:visited{
 	display: block;
@@ -149,22 +149,22 @@ img {
 	.nav-top[data-state="expanded"]{
 		max-height: 20rem;
 	}
-	
+
 @media only screen and (min-width: 30em){
 	.nav-btn,
 	.nav-btn:link,
 	.nav-btn:visited{
 		display: none;
 	}
-	
+
 	.nav-top{
 		max-height: 5rem;
 	}
-	
+
 	.nav li{
 		display: inline-block;
 	}
-		
+
 	.nav-top{
 		float: right;
 		margin-right: 5%;
@@ -176,20 +176,20 @@ img {
 		/*background-color: #000000;*/
 		text-align: center;
 	}
-	
+
 	.nav li{
 		display: inline-block;
 		float: none;
 		margin: 0;
 		width:auto;
 	}
-	
-	.nav a, 
+
+	.nav a,
 	.nav a:link,
 	.nav a:visited{
 		border-top: 0;
 	}
-	
+
 	.nav-top{
 		float: right;
 		margin-right: 5%;
@@ -232,7 +232,7 @@ img {
 .grid li {
 	padding: 0 0.5em 0.5em 0;
 }
-		
+
 .grid li > img {
 	display:block;
 	max-width:100%;
@@ -240,14 +240,14 @@ img {
 	text-align: center;
 }
 
-		
+
 @media all and (min-width: 35em) {
 .grid li {
 	width: 50%;
 	float: left;
 }
 }
-		
+
 @media all and (min-width: 40em) {
 	.grid li {
 		width: 33%;
@@ -256,7 +256,7 @@ img {
 		width: 66%;
 	}
 }
-		
+
 @media all and (min-width: 60em) {
 	.grid li {
 		width: 25%;
@@ -323,7 +323,7 @@ section{
 	-o-border-radius: 50%;
 	border-radius: 50%;
 	color: #fff;
-	
+
 	-webkit-box-shadow: inset 0px 0px 0px 40px #8F0000;
 	-moz-box-shadow: inset 0px 0px 0px 40px #8F0000;
 	-ms-box-shadow: inset 0px 0px 0px 40px #8F0000;
@@ -345,7 +345,7 @@ section{
 
 /*BACK TO TOP*/
 .backtotop {
-	position: absolute;	
+	position: absolute;
 	position: fixed;
 	top:auto;
 	bottom:1rem;
