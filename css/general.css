@@ -5,10 +5,6 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-	-moz-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	-o-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
 }
 
@@ -28,32 +24,13 @@ h1,
 }
 
 .logo{
-	width: 60%;
+	width: 100px;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.logo:hover{
-    -webkit-transform:scale(1.1);
-    -moz-transform:scale(1.1);
-    -o-transform:scale(1.1);
-    -webkit-transition-duration:0.3s;
-    -moz-transition-duration:0.3s;
-    -o-transition-duration:0.3s;
-}
-
-@media only screen and (min-width: 30em){
-	.logo{
-		margin-left: 5rem;
-		margin-top: 5rem;
-		width: 20%;
-		padding: 0;
-	}
+	margin: auto;
+	float: left;
 }
 
 header{
-    /*border-bottom: solid 4px #35C3E0;*/
     background-color: #FFF;
     text-align:center;
 }
@@ -61,7 +38,7 @@ header{
 h2{
 	color: #000;
 	font-family: sans-serif;
-	font-size: 60px;
+	font-size: 50px;
 	text-align: center;
 }
 
@@ -148,7 +125,6 @@ img {
 		max-height: 20rem;
 	}
 
-@media only screen and (min-width: 30em){
 	.nav-btn,
 	.nav-btn:link,
 	.nav-btn:visited{
@@ -167,9 +143,8 @@ img {
 		float: right;
 		margin-right: 5%;
 	}
-}
 
-@media only screen and (min-width: 35em){
+
 	.nav{
 		/*background-color: #000000;*/
 		text-align: center;
@@ -192,7 +167,7 @@ img {
 		float: right;
 		margin-right: 5%;
 	}
-}
+
 
 .fancy-link,
 .fancy-link:link,
@@ -306,17 +281,8 @@ section{
 	margin-right: .4rem;
 	text-align: center;
 	padding-top: .6rem;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-ms-border-radius: 50%;
-	-o-border-radius: 50%;
 	border-radius: 50%;
 	color: #fff;
-
-	-webkit-box-shadow: inset 0px 0px 0px 40px #000;
-	-moz-box-shadow: inset 0px 0px 0px 40px #000;
-	-ms-box-shadow: inset 0px 0px 0px 40px #000;
-	-o-box-shadow: inset 0px 0px 0px 40px #000;
 	box-shadow: inset 0px 0px 0px 40px #000;
 }
 
@@ -324,10 +290,6 @@ section{
 .social li a:active,
 .social li a:focus{
 	color: #000;
-	-webkit-box-shadow: inset 0px 0px 0px 3px #fff;
-	-moz-box-shadow: inset 0px 0px 0px 3px #fff;
-	-ms-box-shadow: inset 0px 0px 0px 3px #fff;
-	-o-box-shadow: inset 0px 0px 0px 3px #fff;
 	box-shadow: inset 0px 0px 0px 3px #fff;
 }
 
@@ -339,10 +301,10 @@ section{
 	bottom:1rem;
 	left:auto;
 	right:1rem;
-	width: 10%;
+	width: 100px;
 }
 
-@media only screen and (max-width: 35em){
+@media only screen and (max-width: 40em){
 .backtotop {
 	display: none;
 }
