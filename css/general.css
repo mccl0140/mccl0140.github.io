@@ -109,11 +109,11 @@ img {
 .nav-btn:hover,
 .nav-btn:focus,
 .nav-btn:active{
-	background-color: #BFF000;
+	background-color: rgba(0,0,0,0.1);
 }
 
 .nav-btn[data-state="active"] {
-	background: #BFF000 url('../images/nav-close.svg') no-repeat center center;
+	background: rgba(0,0,0,0.1) url('../images/nav-close.svg') no-repeat center center;
 }
 
 .nav a,
@@ -122,7 +122,7 @@ img {
 	display: block;
 	padding: .5rem;
 	text-align:center;
-	color: #000000;
+	color: #000;
 	text-decoration: none;
 	text-transform: uppercase;
 	/* border-width || border-style || border-color */
@@ -131,11 +131,10 @@ img {
 .nav a:hover,
 .nav a:focus,
 .nav a:active{
-	color: #60BF00;
+	color: #000;
 }
 
 	/* Toggle Nav*/
-
 	.nav-top{
 		max-height: 0;
 		-moz-transition: all 250ms linear;
@@ -200,14 +199,14 @@ img {
 .fancy-link:visited{
 	text-decoration: none;
 	font-weight: bold;
-	border-bottom: 0 solid #BFFF00;
+	border-bottom: 0 solid #000;
 }
 
 .fancy-link:hover,
 .fancy-link:active,
 .fancy-link:focus{
-	color: #0d70aa;
-	border-bottom: 10px solid #BFFF00;
+	color: #fff;
+	border-bottom: 10px solid #000;
 }
 
 .flexslider{
@@ -323,48 +322,38 @@ section{
 	border-radius: 50%;
 	color: #fff;
 
-	-webkit-box-shadow: inset 0px 0px 0px 40px #8F0000;
-	-moz-box-shadow: inset 0px 0px 0px 40px #8F0000;
-	-ms-box-shadow: inset 0px 0px 0px 40px #8F0000;
-	-o-box-shadow: inset 0px 0px 0px 40px #8F0000;
-	box-shadow: inset 0px 0px 0px 40px #8F0000;
+	-webkit-box-shadow: inset 0px 0px 0px 40px #000;
+	-moz-box-shadow: inset 0px 0px 0px 40px #000;
+	-ms-box-shadow: inset 0px 0px 0px 40px #000;
+	-o-box-shadow: inset 0px 0px 0px 40px #000;
+	box-shadow: inset 0px 0px 0px 40px #000;
 }
 
 .social li a:hover,
-.socail li a:active,
-.socail li a:focus{
-	color: #FA0D3B;
-	-webkit-box-shadow: inset 0px 0px 0px 3px #FA0D3B;
-	-moz-box-shadow: inset 0px 0px 0px 3px #FA0D3B;
-	-ms-box-shadow: inset 0px 0px 0px 3px #FA0D3B;
-	-o-box-shadow: inset 0px 0px 0px 3px #FA0D3B;
-	box-shadow: inset 0px 0px 0px 3px #FA0D3B;
+.social li a:active,
+.social li a:focus{
+	color: #000;
+	-webkit-box-shadow: inset 0px 0px 0px 3px #fff;
+	-moz-box-shadow: inset 0px 0px 0px 3px #fff;
+	-ms-box-shadow: inset 0px 0px 0px 3px #fff;
+	-o-box-shadow: inset 0px 0px 0px 3px #fff;
+	box-shadow: inset 0px 0px 0px 3px #fff;
 }
 
 
 /*BACK TO TOP*/
 .backtotop {
-	position: absolute;
 	position: fixed;
 	top:auto;
 	bottom:1rem;
 	left:auto;
 	right:1rem;
-	width: 6%;
-	background: rgba(0,0,0,.1);
+	width: 10%;
 }
 
-@media all and (min-width: 40em) {
-	.backtotop{
-		width: 5%;
-	}
-}
-
-@media all and (min-width: 30em) {
-	.backtotop{
-		width: 4%;
-	}
-
+@media only screen and (max-width: 35em){
+.backtotop {
+	display: none;
 }
 
 /*FOOTER*/
