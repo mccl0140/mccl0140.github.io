@@ -209,15 +209,6 @@ img {
 	border-bottom: 10px solid #000;
 }
 
-.flexslider{
-	padding-top: 5rem;
-	max-width: 70rem; /*720px*/
-	margin: 3rem auto;
-	border: 0;
-	box-shadow: none;
-
-}
-
 /*IMAGES LAYOUT*/
 .grid {
 	list-style:none;
