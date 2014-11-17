@@ -125,6 +125,7 @@ img {
 		max-height: 20rem;
 	}
 
+@media only screen and (min-width: 30em){
 	.nav-btn,
 	.nav-btn:link,
 	.nav-btn:visited{
@@ -143,10 +144,10 @@ img {
 		float: right;
 		margin-right: 5%;
 	}
+}
 
-
+@media only screen and (min-width: 30em){
 	.nav{
-		/*background-color: #000000;*/
 		text-align: center;
 	}
 
@@ -167,6 +168,10 @@ img {
 		float: right;
 		margin-right: 5%;
 	}
+}
+
+
+
 
 
 .fancy-link,
