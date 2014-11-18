@@ -19,7 +19,7 @@
 <body>
 
 <header>
-				<a href="http://mcclellandsam.ca"><img class="logo" src="images/logo.svg" alt="Samantha McClelland, Graphic Artist"></a>
+			<h1 id="logo"><a href="index.html"><img src="images/logo.svg" alt="Samantha McClelland, Graphic Artist" class="logo"></a></h1>
 			<nav class="nav nav-scrolled">
 				<ul>
 					<li><a href="#about-nav">About Me</a></li>
@@ -131,5 +131,20 @@
 </div>
 </div>
 
+
+
+<script src="js/nav.js"></script>
+<!-- Import jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<!-- Import jQuery Flexslider plugin -->
+		<script src="flexslider/jquery.flexslider-min.js"></script>
+		<!-- Fire/run the plugin (Tell it to GO!) -->
+		<script type="text/javascript" charset="utf-8">
+		  $(window).load(function() {
+			$('.flexslider').flexslider({
+				animation: "slide",
+				});
+		  });
+		</script>
 </body>
 </html>
