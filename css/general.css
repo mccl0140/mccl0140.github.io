@@ -29,7 +29,10 @@ p, li{
 	text-align:center;
 	line-height: 150%;
 	margin: auto 0;
-	padding-bottom: 5rem;
+}
+
+p{
+	padding-bottom: 10rem;
 }
 
 img {
@@ -43,20 +46,28 @@ img {
 	margin: auto 0;
 }
 
-.header{
+header{
 	background-color: #D5DED9;
+	width:100%;
+	height: 100%;
 }
 
 .about{
 	background-color: #99B2B7;
+	width:100%;
+	height: 100%;
 }
 
 .portfolio{
 	background-color: #D9CEB2;
+	width:100%;
+	height: 100%;
 }
 
 .contact{
 	background-color: #948C75;
+	width:100%;
+	height: 100%;
 }
 
 .hide-text {
@@ -131,7 +142,7 @@ img {
 }
 
 .grid li {
-	padding: 0 0.5em 0.5em 0;
+	padding: 0.5em 0 0 0.5em;
 }
 
 .grid li > img {
@@ -202,6 +213,14 @@ img {
 }
 
 /*SOCIAL ICONS*/
+.ease-all{
+	-webkit-transition: all 350ms ease-in-out;
+	-moz-transistion: all 350ms ease-in-out;
+	-ms-transition: all 350ms ease-in-out;
+	-o- transition:all 350ms ease-in-out;
+	transition: all 350ms ease-in-out;
+}
+
 .icons{
 	width: 9rem;
 	display: block;
@@ -250,8 +269,5 @@ img {
 
 /*FOOTER*/
 footer{
-	padding-top: 5rem;
-	padding-left: 5rem;
-	padding-right: 5rem;
 	margin: auto 0;
 }
