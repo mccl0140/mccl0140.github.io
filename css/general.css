@@ -6,21 +6,18 @@
 
 html {
 	text-size-adjust: 100%;
+	background-color: #7A6A53;
+
 }
 
 html, body{
 	padding: 0;
-	margin: 0;
+	margin: auto 0;
 }
 
-.main{
-	padding: 5rem;
-}
-
-h1,
 .main{
     width: 100%;
-    margin: auto;
+    margin: auto 0;
 }
 
 h2{
@@ -28,18 +25,42 @@ h2{
 	font-family: sans-serif;
 	font-size: 50px;
 	text-align: center;
+	padding-top: 5rem;
+	margin: auto 0;
 }
 
 p, li{
 	font-family: sans-serif;
 	text-align:center;
 	line-height: 150%;
+	margin: auto 0;
 }
 
 img {
 	display: block;
-  margin-right: auto;
+  margin-right: auto 0;
   width: 100%;
+  margin: auto 0;
+}
+
+.heading-pic{
+	margin: auto 0;
+}
+
+.header{
+	background-color: #D5DED9;
+}
+
+.about{
+	background-color: #99B2B7;
+}
+
+.portfolio{
+	background-color: #D9CEB2;
+}
+
+.contact{
+	background-color: #948C75;
 }
 
 .ease-all{
@@ -57,18 +78,25 @@ img {
 	display: block;
 }
 
-/*NAVIGATION*/
-
 .logo {
 	width: 50px;
 	height: 50px;
 	float: left;
 	display: inline-block;
-	margin-top: 1rem;
-	margin-left: 1rem;
 	position: fixed;
+	margin: auto 0;
 }
 
+.logo:hover{
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    -webkit-transition-duration:0.3s;
+    -moz-transition-duration:0.3s;
+    -o-transition-duration:0.3s;
+}
+
+/*NAVIGATION*/
 .nav {
 	text-align:right;
 	position: fixed;
@@ -112,30 +140,6 @@ img {
 .nav a:active{
 	color: #000;
 	background-color: rgba(0,0,0,0.1);
-}
-
-
-
-
-
-
-
-
-
-
-.fancy-link,
-.fancy-link:link,
-.fancy-link:visited{
-	text-decoration: none;
-	font-weight: bold;
-	border-bottom: 0 solid #000;
-}
-
-.fancy-link:hover,
-.fancy-link:active,
-.fancy-link:focus{
-	color: #fff;
-	border-bottom: 10px solid #000;
 }
 
 /*IMAGES LAYOUT*/
@@ -195,7 +199,8 @@ img {
 .pictures,
 .placeholder,
 .placeholder-last{
-	overflow:auto;
+	overflow: auto;
+	margin: auto 0;
 }
 
 .pictures
@@ -221,7 +226,7 @@ img {
 section{
 	width: 9rem;
 	display: block;
-	margin:auto;
+	margin: auto 0;
 	clear:both;
 }
 
@@ -256,6 +261,7 @@ section{
 	left:auto;
 	right:1rem;
 	width: 100px;
+	margin: auto 0;
 }
 
 @media only screen and (max-width: 40em){
@@ -268,4 +274,5 @@ footer{
 	padding-top: 5rem;
 	padding-left: 5rem;
 	padding-right: 5rem;
+	margin: auto 0;
 }
