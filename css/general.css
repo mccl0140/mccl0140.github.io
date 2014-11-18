@@ -223,7 +223,7 @@ img {
 }
 
 /*SOCIAL ICONS*/
-section{
+.icons{
 	width: 9rem;
 	display: block;
 	margin: auto 0;
