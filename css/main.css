@@ -219,6 +219,18 @@ h4{
 	background-color: #fff;
 }
 
+
+
+.portfolio-section-1 :hover,
+.portfolio-section-2 :hover,
+.portfolio-section-3 :hover,
+.portfolio-section-4 :hover,
+.portfolio-section-5 :hover,
+.portfolio-section-6 :hover,
+.portfolio-section-7 :hover{
+	background-color: black;
+}
+
 /* PORTFOLIO DROP DOWN */
 
 .content{
@@ -321,7 +333,6 @@ h4{
 	border-bottom-width: 100%;
 
 }
-
 }
 
 /*GENERAL*/
@@ -359,7 +370,6 @@ h3,
 .portfolio-description {
 	text-align: left;
 }
-
 }
 
 /* CONTACT */
