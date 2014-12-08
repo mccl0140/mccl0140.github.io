@@ -1,11 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/* COLOURS
-light teal/blue - #d5ded9
-teal/blue - #99b2b7
-medium tan - #d9ceb2
-medium brown - #7a6a53*/
 
 /*GENERAL*/
 
@@ -89,7 +84,7 @@ img {
 /* "HOME" PAGE */
 
 .main-banner-section {
-	background: transparent url("http://placehold.it/1000x500.jpg") no-repeat center top;
+	background: transparent url("../img/computer-me2.jpg") no-repeat center top;
 	background-size: cover;
 	padding: 6.5rem 0;
 
@@ -101,6 +96,7 @@ img {
 	font-family: serif;
 	font-size: 40px;
 	padding-top: 18rem;
+	padding-right: 2rem;
 }
 
 .intro-2{
@@ -108,25 +104,27 @@ img {
 	text-align: right;
 	font-family: serif;
 	font-size: 14px;
+	padding-right: 2rem;
+
 }
 
 /* ABOUT */
 
 .about-section {
-	background-color: #d5ded9;
+	background-color: #fff;
 	padding: 2rem 1rem;
 }
 
 h2 {
 	font-family: serif;
-	color: #2e2e2e;
+	color: #000;
 	text-align:center;
 	font-size:20px;
 }
 
 .about-me {
 	font-family: serif;
-	color: #2e2e2e;
+	color: #000;
 	text-align: center;
 	font-size: 16px;
 	font-weight: 300;
@@ -163,11 +161,11 @@ h2 {
 
 .portfolio-section {
 	padding-left: 6rem;
-	background-color: #7a6a53;
+	background-color: #fff;
 }
 
 .portfolio {
-	color: #fff;
+	color: #000;
 	text-align:center;
 	font-size:40px;
 	font-family: serif;
@@ -198,13 +196,13 @@ h3 {
 .portfolio-section-3,
 .portfolio-section-5,
 .portfolio-section-7{
-	background-color: #d5ded9;
+	background-color: #ccc;
 }
 
 .portfolio-section-2,
 .portfolio-section-4,
 .portfolio-section-6{
-	background-color: #99b2b7;
+	background-color: #fff;
 }
 
 /* PORTFOLIO DROP DOWN */
@@ -268,25 +266,25 @@ h3 {
 
 .link{
 	text-decoration: none;
-	border-bottom: 2px solid #d5ded9;
+	border-bottom: 2px solid #fff;
 	color: rgba(122,122,122,1.00);
 }
 
 .link:hover{
 	border-bottom: 0px;
-	color: #d5ded9;
+	color: #fff;
 }
 
 .link:visited{
 	text-decoration: none;
-	border-bottom: 2px solid #d5ded9;
+	border-bottom: 2px solid #fff;
 	color: rgba(122,122,122,1.00);
 }
 
 /* FOOTER */
 .footer-section{
 	padding: 2rem;
-	background-color: #d9ceb2;
+	background-color: #fff;
 }
 
 .copyright{
@@ -384,13 +382,13 @@ h3,
 /* CONTACT/FOOTER */
 
 .contact{
-	background-color: #7a6a53;
+	background-color: #fff;
 	margin: auto 0;
 	padding: 2rem;
 	text-align: center;
 }
 
 .contact-content{
-	background-color: #d9ceb2;
+	background-color: #fff;
 	padding: 2rem 1rem 1rem 6rem;
 }
