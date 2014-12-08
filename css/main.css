@@ -211,18 +211,13 @@ h4{
 .portfolio-section-5,
 .portfolio-section-7{
 	background-color: #B2DFEE;
+  border-bottom: solid #ccc 4px;
 }
 
 .portfolio-section-2,
 .portfolio-section-4,
 .portfolio-section-6{
 	background-color: #fff;
-}
-
-
-
-.opener :hover{
-	background-color: black;
 }
 
 /* PORTFOLIO DROP DOWN */
