@@ -221,13 +221,7 @@ h4{
 
 
 
-.portfolio-section-1 :hover,
-.portfolio-section-2 :hover,
-.portfolio-section-3 :hover,
-.portfolio-section-4 :hover,
-.portfolio-section-5 :hover,
-.portfolio-section-6 :hover,
-.portfolio-section-7 :hover{
+.opener :hover{
 	background-color: black;
 }
 
