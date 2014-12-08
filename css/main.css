@@ -46,6 +46,7 @@ img {
 	position: fixed;
 	height: 50px;
 	font-size: 12px;
+	background-color: #000;
 }
 
 .nav-scrolled {
@@ -75,21 +76,21 @@ img {
 .nav ul {
 	padding: 0;
 	margin: 0 auto;
-	xdisplay: inline-block;
+	display: inline-block;
 	/*width: 17em;*/
 }
 
 .nav a:hover,
 .nav a:focus,
 .nav a:active{
-	color: #000;
+	color: #B2DFEE;
 	text-decoration: overline;
 }
 
 /* "HOME" PAGE */
 
 .main-banner-section {
-	background: transparent url("../img/stardust.png") no-repeat center top;
+	background: transparent url("../img/hay.jpg") no-repeat center top;
 	background-size: cover;
 	padding: 6.5rem 0;
 
@@ -116,12 +117,12 @@ img {
 /* ABOUT */
 
 .about-section {
-	background-color: #fff;
+	background-color: #B2DFEE;
 	padding: 2rem 1rem;
 }
 
 h2 {
-	font-family: serif;
+	font-family: 'Indie Flower', cursive;;
 	color: #000;
 	text-align:center;
 	font-size:20px;
