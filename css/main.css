@@ -303,18 +303,6 @@ h3 {
 	color: rgba(122,122,122,1.00);
 }
 
-/* FOOTER */
-.footer-section{
-	padding: 2rem;
-	background-color: #fff;
-}
-
-.copyright{
-	text-align:center;
-	color: #fff;
-	font-size: 12px;
-}
-
 @media only screen and (min-width: 41em){
 
 .main-banner-section {
@@ -379,7 +367,6 @@ h3 {
 	font-size: 80px;
 }
 
-
 .intro-2{
 	font-size: 20px;
 }
@@ -395,7 +382,7 @@ h3,
 
 }
 
-/* CONTACT/FOOTER */
+/* CONTACT */
 
 .contact{
 	background-color: #fff;
@@ -408,9 +395,6 @@ h3,
 	background-color: #fff;
 	padding: 2rem 1rem 1rem 6rem;
 }
-
-
-
 
 /*SOCIAL ICONS*/
 
@@ -472,6 +456,17 @@ h3,
   color: white;
 }
 
+/* FOOTER */
+.footer-section{
+	padding: 2rem;
+	background-color: #fff;
+	color: #000;
+}
 
+.copyright{
+	text-align:center;
+	color: #fff;
+	font-size: 12px;
+}
 
 
