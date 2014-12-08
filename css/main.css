@@ -1,6 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* COLOURS
+light teal/blue - #d5ded9
+teal/blue - #99b2b7
+medium tan - #d9ceb2
+medium brown - #7a6a53*/
 
 /*GENERAL*/
 
@@ -53,7 +58,7 @@ img {
 .nav a:link,
 .nav a:visited {
 	text-align:right;
-	font-family: serif;
+	font-family: 'Indie Flower', cursive;
 	letter-spacing: 1.5px;
 	color: #fff;
 	text-decoration: none;
