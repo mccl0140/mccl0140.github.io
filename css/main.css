@@ -211,7 +211,7 @@ p{
 .portfolio-section-3,
 .portfolio-section-5,
 .portfolio-section-7{
-	background-color: #B2DFEE;
+	background-color: #ccc;
 }
 
 .portfolio-section-2,
@@ -219,23 +219,6 @@ p{
 .portfolio-section-6{
 	background-color: #fff;
 }
-
-.portfolio-section-1,
-.portfolio-section-2,
-.portfolio-section-3,
-.portfolio-section-4,
-.portfolio-section-5,
-.portfolio-section-6,
-.portfolio-section-7{
-	border:2px solid #ccc;
-	border-bottom:3px solid #ccc;
-	text-shadow:0px 2px 2px #ccc;
-}
-
-
-
-
-
 
 /* PORTFOLIO DROP DOWN */
 
