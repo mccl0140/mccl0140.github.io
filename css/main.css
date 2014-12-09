@@ -92,7 +92,7 @@ p{
 .nav li {
 	text-align:center;
 	display: inline-block;
-	padding: 1rem .5rem 1rem .5rem;
+	padding: .25rem;
 }
 
 .nav ul {
@@ -313,8 +313,7 @@ h4{
 }
 
 .nav li {
-	padding-left: 2em;
-	padding-right: 2em;
+	padding: 1rem .5rem 1rem .5rem;
 	font-size: 16px;
 }
 
