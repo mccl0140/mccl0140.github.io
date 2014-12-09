@@ -29,6 +29,7 @@ h2 {
 	color: #000;
 	text-align:center;
 	font-size:20px;
+	padding-top: 5rem;
 }
 
 h3 {
@@ -189,9 +190,7 @@ p{
 	background-color: #fff;
 }
 
-.portfolio-section {
-	padding-top: 5rem;
-}
+
 
 .portfolio-description {
 	text-align: left;
