@@ -29,7 +29,7 @@ h2 {
 	color: #000;
 	text-align:center;
 	font-size:20px;
-	padding-top: 5rem;
+	padding-top: 7rem;
 }
 
 h3 {
@@ -146,7 +146,6 @@ p{
 
 .about-section {
 	background-color: #B2DFEE;
-	padding: 1rem;
 }
 
 
@@ -306,15 +305,8 @@ p{
 	padding: 15rem 0;
 }
 
-.about-section {
-	padding: 4rem 8rem;
-}
 .logo{
 	width: 80px;
-}
-
-.about-section {
-	padding: 2rem 4rem;
 }
 
 .nav li {
@@ -346,7 +338,6 @@ p{
 }
 
 .about-section {
-	padding: 6rem 10rem;
 	line-height: 1.5rem;
 }
 
@@ -380,7 +371,7 @@ h3,
 }
 
 .contact-section{
-	background-color: #fff;
+	background-color: #B2DFEE;
 }
 
 /*SOCIAL ICONS*/
