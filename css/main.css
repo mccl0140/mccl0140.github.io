@@ -44,8 +44,8 @@ p{
 /* NAVIGATION */
 
 .logo {
-	width: 50px;
-	padding-left: 1rem;
+	width: 90px;
+	padding: 0 0 1rem 1rem ;
 	float: left;
 	display: inline-block;
 	margin: auto 0;
@@ -69,9 +69,8 @@ p{
 .nav {
 	text-align:right;
 	position: fixed;
-	height: 80px;
 	font-size: 12px;
-	background-color: rgba(0, 0, 0, 0.6)
+	background-color: rgba(0, 0, 0, 0.6);
 }
 
 .nav-scrolled {
@@ -93,7 +92,7 @@ p{
 .nav li {
 	text-align:center;
 	display: inline-block;
-	padding: 0.5em;
+	padding: 1rem .5rem 1rem .5rem;
 }
 
 .nav ul {
@@ -303,7 +302,7 @@ h4{
 	color: rgba(122,122,122,1.00);
 }
 
-@media only screen and (min-width: 30em){
+@media only screen and (min-width: 40em){
 
 .main-banner-section {
 	padding: 15rem 0;
@@ -320,8 +319,7 @@ h4{
 }
 
 .logo {
-	width: 60px;
-	height: 60px;
+	width: 90px;
 }
 
 .copyright{
@@ -348,8 +346,7 @@ h4{
 }
 
 .logo {
-	width: 60px;
-	height: 60px;
+	width: 90px;
 }
 
 .about-section {
