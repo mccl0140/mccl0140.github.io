@@ -156,6 +156,10 @@ p{
 }
 
 /* PORTFOLIO */
+.portfolio-background{
+	margin: auto 0;
+	background: url("../img/treebark.png");
+}
 
 .line-separator{
 	height: 1px;
@@ -199,7 +203,6 @@ p{
 	text-align:center;
 	font-size:40px;
 	margin: auto 0;
-	background-color: #fff;
 }
 
 
@@ -371,7 +374,7 @@ h3,
 }
 
 .contact-section{
-	background-color: #B2DFEE;
+	background: url("../img/knitting.png");
 }
 
 /*SOCIAL ICONS*/
