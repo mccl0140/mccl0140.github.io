@@ -19,9 +19,13 @@ section {
 
 img {
 	display: block;
-	margin: 0 auto;
+	width: 100%;
 }
 
+.img-portfolio{
+	max-width: 500px;
+	display: inline-block;
+}
 
 h2 {
 	font-family: 'Indie Flower', cursive;;
@@ -234,7 +238,7 @@ p{
 .portfolio-section-2,
 .portfolio-section-4,
 .portfolio-section-6{
-	background-color: #fff;
+	background-color: #f0f0f0;
 }
 
 /* PORTFOLIO DROP DOWN */
@@ -276,16 +280,6 @@ p{
 	line-height: 1.5rem;
 	font-size: 14px;
 	color: rgba(122,122,122,1.00);
-}
-
-.pic-1{
-	width: 100%;
-	padding: 1.5rem 0;
-}
-
-.pic-2{
-	width: 100%;
-	padding: 3rem 0;
 }
 
 .link{
