@@ -26,7 +26,7 @@ img {
 }
 
 h2 {
-	font-family: 'Indie Flower', cursive;;
+	font-family: 'Indie Flower', cursive;
 	color: #000;
 	text-align:center;
 	font-size:20px;
@@ -317,15 +317,6 @@ p{
 	padding: 0 3rem;
 }
 
-
-/* PORTFOLIO CONTENT */
-
-.pic-1{
-	width: 75%;
-	border-bottom-width: 100%;
-
-}
-}
 
 /*GENERAL*/
 

@@ -2,13 +2,31 @@ html {
 
 }
 
-h1 {
+h5 {
+	padding-top: 4rem;
 	text-align: center;
+	font-size: 40px;
+	text-shadow: 2px 2px #ccc;
+	font-family: "Indie Flower", cursive;
+}
+
+h6{
+	text-align: center;
+	font-size: 24px;
 }
 
 .chinchilla{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+	max-width: 300px;
+	max-height: 300px;
+	display: block;
+ margin-left: auto;
+ margin-right: auto;
 }
 
+.footer-section{
+	padding: 5rem;
+}
+
+a {
+	color: #B2DFEE;
+}
