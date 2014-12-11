@@ -380,6 +380,8 @@ h3,
 /*SOCIAL ICONS*/
 
 .social {
+	height: 30px;
+	margin: auto 0;
 	padding-top: 6rem;
   width: 100%;
   text-align: center;
@@ -416,9 +418,8 @@ h3,
 }
 
 .social .link:hover {
-  padding: 20px;
   color: white;
-  margin-left: -5px;
+  margin-left: -.25px;
   transform: translateX(10px) rotate(360deg);
 }
 
