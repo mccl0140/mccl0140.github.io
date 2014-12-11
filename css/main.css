@@ -1,16 +1,14 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/* COLOURS
-light teal/blue - #d5ded9
-teal/blue - #99b2b7
-medium tan - #d9ceb2
-medium brown - #7a6a53*/
-
 /*GENERAL*/
 body {
 	margin: 0;
 	padding: 0;
+}
+
+a:focus {
+  outline: 3px solid red;
 }
 
 section {
