@@ -426,9 +426,9 @@ h3,
 }
 
 
-@media only screen and (max-width: 60em){
+@media only screen and (max-width: 25em){
 	.social {
-		display: none;
+		padding-top: 15rem;
 }
 }
 /* FOOTER */
