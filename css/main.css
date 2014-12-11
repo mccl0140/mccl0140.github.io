@@ -8,7 +8,7 @@ body {
 }
 
 a:focus {
-  outline: 3px solid red;
+  outline: 3px solid #222;
 }
 
 section {
