@@ -84,7 +84,7 @@ p{
 	text-align:right;
 	position: fixed;
 	font-size: 12px;
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: #fff;
 }
 
 .nav-scrolled {
@@ -99,7 +99,7 @@ p{
 	text-align:right;
 	font-family: 'Indie Flower', cursive;
 	letter-spacing: 1.5px;
-	color: #fff;
+	color: #063E53;
 	text-decoration: none;
 }
 
@@ -119,7 +119,7 @@ p{
 .nav a:hover,
 .nav a:focus,
 .nav a:active{
-	color: #B2DFEE;
+	color: #0193B7;
 	text-decoration: overline;
 }
 
